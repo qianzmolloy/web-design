@@ -1,1 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Orthodontic Education Hub</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f7f9fc;
+      color: #1f2937;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0b57b7, #ff7a00);
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    nav {
+      background: #ffffff;
+      padding: 1rem;
+      text-align: center;
+      border-bottom: 1px solid #dbe3ee;
+    }
+
+    nav a {
+      margin: 0 0.75rem;
+      text-decoration: none;
+      color: #0b57b7;
+      font-weight: bold;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    section {
+      background: white;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      border-radius: 14px;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      border-radius: 12px;
+      display: block;
+    }
+
+    ul {
+      padding-left: 1.25rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background: #eaf1fb;
+      color: #374151;
+    }
+
+    .button-link {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.8rem 1.2rem;
+      background: #0b57b7;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    .button-link:hover {
+      background: #08458f;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Orthodontic Education Hub</h1>
+    <p>Learn the basics of braces, aligners, and oral care in one simple page.</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#topics">Topics</a>
+    <a href="#gallery">Gallery</a>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>About This Page</h2>
+      <p>
+        This HTML5 page is a simple orthodontic education website example. It uses semantic structure,
+        includes a list, images, and an external link.
+      </p>
+    </section>
+
+    <section id="topics">
+      <h2>Key Orthodontic Topics</h2>
+      <ul>
+        <li>How braces help align teeth</li>
+        <li>Why retainers are important after treatment</li>
+        <li>Daily oral hygiene during orthodontic care</li>
+      </ul>
+
+      <a class="button-link" href="https://www.aaoinfo.org/" target="_blank" rel="noopener noreferrer">
+        Visit an External Orthodontic Resource
+      </a>
+    </section>
+
+    <section id="gallery">
+      <h2>Learning Gallery</h2>
+      <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1606813907291-d86efa9b94db?auto=format&fit=crop&w=800&q=80" alt="Orthodontic consultation" />
+        <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=800&q=80" alt="Dental tools and care" />
+        <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=800&q=80" alt="Smile and orthodontic treatment" />
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Orthodontic Education Hub</p>
+  </footer>
+</body>
+</html>
 
