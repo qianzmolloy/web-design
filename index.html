@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Orthodontic Education Hub</title>
+  <title>Orthodontic Education Hub | Braces, Aligners, and Oral Care </title>
   <style>
     * {
       box-sizing: border-box;
@@ -38,6 +38,10 @@
       font-weight: bold;
     }
 
+    nav a:hover {
+      text-decoration: underline;
+    }
+
     main {
       max-width: 1100px;
       margin: 2rem auto;
@@ -56,6 +60,20 @@
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
       gap: 1rem;
+    }
+
+    h1,
+    h2 {
+      line-height: 1.3;
+    }
+
+    ul {
+      padding-left: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    li {
+      margin-bottom: 0.5rem;
     }
 
     .gallery img {
@@ -109,36 +127,63 @@
     <section id="about">
       <h2>About This Page</h2>
       <p>
-        This HTML5 page is a simple orthodontic education website example. It uses semantic structure,
-        includes a list, images, and an external link.
+        This orthodontic education page introduces common treatment topics, including braces,
+        aligners, retainers, and oral hygiene. It is designed as a simple HTML5 example using
+        semantic structure, a formatted list, images, and an external resource link.
       </p>
     </section>
 
     <section id="topics">
       <h2>Key Orthodontic Topics</h2>
       <ul>
-        <li>How braces help align teeth</li>
-        <li>Why retainers are important after treatment</li>
-        <li>Daily oral hygiene during orthodontic care</li>
+        <li>How braces help move teeth into better alignment.</li>
+        <li>How clear aligners can gradually adjust tooth position.</li>
+        <li>Why retainers are important after orthodontic treatment.</li>
+        <li>>How to maintain daily oral hygiene while wearing orthodontic appliances.</li>
       </ul>
 
-      <a class="button-link" href="https://www.aaoinfo.org/" target="_blank" rel="noopener noreferrer">
-        Visit an External Orthodontic Resource
+       <a
+        class="button-link"
+        href="https://www.aaoinfo.org/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Visit the American Association of Orthodontists
       </a>
     </section>
 
     <section id="gallery">
       <h2>Learning Gallery</h2>
       <div class="gallery">
-        <img src="https://images.unsplash.com/photo-1606813907291-d86efa9b94db?auto=format&fit=crop&w=800&q=80" alt="Orthodontic consultation" />
-        <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=800&q=80" alt="Dental tools and care" />
-        <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=800&q=80" alt="Smile and orthodontic treatment" />
+        <figure>
+          <img
+            src="https://images.unsplash.com/photo-1606813907291-d86efa9b94db?auto=format&fit=crop&w=800&q=80"
+            alt="Orthodontist speaking with a patient during a dental consultation"
+          />
+          <figcaption>Orthodontic consultation</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=800&q=80"
+            alt="Dental tools arranged for an oral health examination"
+          />
+          <figcaption>Dental tools and oral care</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=800&q=80"
+            alt="Patient smiling during orthodontic treatment"
+          />
+          <figcaption>Healthy smile during treatment</figcaption>
+        </figure>
       </div>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2026 Orthodontic Education Hub</p>
+    <p>&copy; 2026 Orthodontic Education Hub. Educational use only.</p>
   </footer>
 </body>
 </html>
